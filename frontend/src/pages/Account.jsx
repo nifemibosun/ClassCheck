@@ -100,6 +100,12 @@ export default function Account() {
             </p>
           </div>
           <div>
+            <label className="form-label">Email</label>
+            <p className="text-sm text-gray-900 bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5">
+              {profile?.full_name}
+            </p>
+          </div>
+          <div>
             <label className="form-label">Matric number</label>
             <p className="text-sm text-gray-900 bg-gray-50 border border-gray-200 rounded-lg px-4 py-2.5">
               {profile?.matric_no}

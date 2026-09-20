@@ -441,6 +441,19 @@ export default function SignUp() {
               />
             </div>
 
+            <div style={styles.fieldGroup}>
+              <label style={styles.label} htmlFor="fullName">Email</label>
+              <DarkInput
+                id="email"
+                name="email"
+                required
+                autoComplete="email"
+                placeholder="e.g. johndoe@email.com"
+                value={form.email}
+                onChange={handleChange}
+              />
+            </div>
+
             {/* Matric number */}
             <div style={styles.fieldGroup}>
               <label style={styles.label} htmlFor="matricNo">Matric number</label>
